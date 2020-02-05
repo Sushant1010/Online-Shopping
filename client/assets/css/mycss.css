@@ -1,0 +1,13 @@
+/**{
+	font-family: 'chiller' !important;
+}*/
+
+table thead tr th{
+	font-family: chiller;
+	text-align: center;
+	font-size: 40px;
+}
+.item img{
+	height: 700px;
+	width: 1300px;
+}

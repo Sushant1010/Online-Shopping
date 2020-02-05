@@ -1,0 +1,174 @@
+
+header{
+	text-align: center;
+	color: #fff;
+	background: #000;
+
+}
+nav{
+	
+}
+.circleimg p{
+
+	font-family: Verdana Georgia Courier;
+	font-size: 20px ;
+}
+.head{
+
+}
+
+.bodybg{
+
+	background-color: #e0d9d3;
+}
+.body1{
+
+	text-align: center;
+}
+.body1.1{
+	font-family: ;
+}
+.body2{
+	background-color: #000;
+	text-align: center;
+	color: #fff;
+	margin: 5px ;
+
+}
+
+.circleimg{
+	text-align: center;
+}
+.circlecont{
+	padding: 0px;
+	background-color: #f00;
+}
+
+.footer1{
+
+	background-color: #313131!important; 
+	overflow: auto;
+	color: #d7dae1;
+	/*text-align: center;*/
+	padding: 20px 0;
+}
+.footer2{
+	background-color: #171717; 
+	overflow: auto;
+	color: #696969;
+	text-align: center;
+	padding: 20px 0;
+
+}
+ul{
+	list-style-type: none;
+}
+
+.grow:hover{ 
+
+	-webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+		-webkit-filter: blur(5px);
+ }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    min-width: 160px;
+    box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.banner2{
+
+	background-color: #000;
+	width: 1140px ;
+	color: #fff;
+	height: 60px;
+}
+.banner2 h2{
+	padding-top: 15px;
+	text-align: center;
+	font-family: Georgia Verdana Courier;
+}
+.about p{
+	font-family:  Courier Georgia Verdana;
+	font-size: 25px;
+}
+
+.app{
+	padding: 10 10 10 10px;
+}
+
+.footsocial{
+	padding: 5 5 5 5px;
+}
+.contnav{
+	padding-top: 72px;
+}
+.shrink img:hover {
+  width: 140px;
+  height: 140px;
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+
+  
+}
+
+.morph img:hover {
+  border-radius: 50%;
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+
+}
+.bw img:hover{
+	
+	-webkit-filter: grayscale(100%);
+
+}
+.zoom img:hover{
+	border: 7px solid #000;
+  border-radius: 25%;
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+
+}
+.zoomfoot img:hover{
+	 width: 45px;
+  height: 45px;
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+
+}

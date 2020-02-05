@@ -1,0 +1,255 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-size: 16px;
+		color: #AF7979;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 300;
+	background-color: rgba(177,177,177,1.00)
+}
+#header{
+	/* padding-top: -100px; */
+	height: 100px;
+	width: auto;
+	background-color: rgba(9,0,255,0.1);
+}
+/* 
+.logo{
+	height: 90px;
+	width: 90px;
+	float: left;
+	padding-left: 50px;
+}
+.imag{
+	height: 90px;
+
+}
+.logo1{
+	height: 90px;
+	width: 668px;
+	float: left;
+	padding-left: 60px;
+}
+.imag1{
+	height: 90px;
+	width: 668px;
+} */
+
+#pagetop{
+	position: absolute;
+	top: 0px;
+	width:100%;
+	height: 100px;
+	background: #06C;
+ 	background: linear-gradient(to right, #f6f1d3, #06C 85%, #293f50);
+	color: #FFF;
+	font-size: 23px;
+	padding-top: 30px;
+	overflow:hidden;
+	opacity: 1;
+
+}
+#image1{
+	position: relative;
+	height: 80px;
+	width: 80px;
+	bottom: 25px;
+	padding-left: 50px;
+	float: left;
+}
+#imag{
+	height: 80px;
+	width: 80px;
+}
+#image2{
+	position: relative;
+	height: 40px;
+	width: 296px;
+	/* bottom: 10px; */
+	padding-left: 50px;
+	float: left;
+}
+#imag1{
+	height: 40px;
+	width: 296px;
+}
+
+.logout{
+	float: right;
+	margin-right: 30px;
+}
+
+
+
+
+#admin {
+  position: relative;
+  margin: 1% auto;
+  width: 310px;
+  
+  background-color: rgba(255,0,0,0.1);
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+#adminHome {
+  position: relative;
+  margin: 1% auto;
+  width: 310px;
+  background-color: rgba(255,0,0,0.1);
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+form {
+margin-top: -30px;
+margin-left: 20px;
+}
+.log {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  background-color: rgba(255,255,255,1.00);
+  padding: 40px;
+  width: 300px;
+  
+  box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+}
+.logHome {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  background-color: rgba(255,255,255,1.00);
+  padding: 40px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+}
+#displayHome {
+  position: relative;
+  margin: 1% auto;
+  width: 920px;
+  
+  background-color: rgba(255,255,255,0.1);
+  color: black;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+/*.displaylog {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  background-color: rgba(255,255,255,1.00);
+  padding: 40px;
+  width: 300px;
+  height: 450px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+}*/
+input[type="submit"] {
+  margin-top: 5px;
+  width: 82px;
+  height: 34px;
+  background: #16a085;
+  border: none;
+  font-size: 16px;
+  border-radius: 3px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.1s ease;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  opacity: 0.8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+input[type="submit"]:active {
+  opacity: 1;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+#not {
+font-size: 12px ;
+font-style: bold;
+color: red;
+
+}
+
+.forget{
+font-size: 12px;
+font-style: italic;
+color: blue;
+margin-left: 10px;
+}
+#changeadmin {
+  position: relative;
+  margin: 1% auto;
+  width: 310px;
+  
+  background-color: rgba(255,0,0,0.1);
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+.changelog {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  background-color: rgba(255,255,255,1.00);
+  padding: 40px;
+  width: 300px;
+  
+  box-shadow: 0 2px 4px rgba(0,0,0,5);
+}
+#ehome {
+  position: relative;
+  margin: 1% auto;
+  width: 310px;
+  background-color: rgba(255,0,0,0.1);
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.elog {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  background-color: rgba(255,255,255,1.00);
+  padding: 40px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+}
+
+
+#tohide{
+    visibility: hidden;
+}
+.upload{
+    border-color: red;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    width: 100px;
+    height: 30px;
+}
+.upload:hover{
+    border-color: antiquewhite;
+    color: orange;
+    cursor: pointer;
+}
+img{
+		 max-width:180px;
+		 position: hidden;
+}
+/*input[type=file]
+{
+	padding:10px;
+	background:#2d2d2d;
+}*/

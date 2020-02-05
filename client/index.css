@@ -1,0 +1,62 @@
+*:focus {
+  outline: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  position: relative;
+  margin: 5% auto;
+  width: 600px;
+  height: 400px;
+  background-color: rgba(F,F,F,0.7);
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+.box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+}
+.image{
+	height: 100px;
+	width: 50px;
+	box-sizing: border-box;
+}
+#boss{
+	height: auto;
+	width: 800px;
+}
+#main-image{
+	height: 300px;
+	width: 200px;
+	float: left;
+	background: blue;
+	position: fixed;
+	
+}
+#content-des{
+	height: auto;
+	width: 500px;
+	float: left;
+	background: red;
+	margin-left: 210px;
+
+}
+.desc{
+	height: auto;
+	width: 400px;
+	background: white;
+	float: right;
+}
+img{
+	height: 150px;
+	width: 80px;
+}
